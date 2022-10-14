@@ -92,7 +92,8 @@ h1, h2, h3, h4, p, a {
 }
 
 .icon-social-networks{
-   color: var(--main-text-color);
+    color: var(--main-text-color);
+   fill: var(--main-text-color);
 
     transition-property: color, fill;
     transition-duration: 250ms;
@@ -104,7 +105,7 @@ h1, h2, h3, h4, p, a {
 .icon-social-networks:hover,
 .icon-social-networks:focus
 {
-    
+    fill: var(--accent-color);
     color: var(--main-text-color);
 }
 
