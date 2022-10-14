@@ -197,6 +197,11 @@ h1, h2, h3, h4, p, a {
     fill: var(--accent-color);
 }
 
+.header-contacts__text{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
