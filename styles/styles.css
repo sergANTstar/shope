@@ -108,6 +108,11 @@ h1, h2, h3, h4, p, a {
     fill: var(--main-text-color);
 }
 
+.header-contacts-tell{
+    font-family: 'Proxima Nova Bold';
+    font-size: 18px;
+    color: var(--main-text-color);
+}
 
 .header-heading{
     font-family: 'Proxima Nova Bold';
