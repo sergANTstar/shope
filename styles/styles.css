@@ -22,7 +22,7 @@
 body{
     background-color: var(--backround-color);
     color: var(--main-text-color);
-    font-family: 'Proxima Nova Regular';
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     font-size:14px ;
     line-height: 1.25;
@@ -109,13 +109,15 @@ h1, h2, h3, h4, p, a {
 }
 
 .header-contacts-tell{
-    font-family: 'Proxima Nova Bold';
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     color: var(--main-text-color);
 }
 
 .header-heading{
-    font-family: 'Proxima Nova Bold';
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.25;
     color: var(--main-text-color);
@@ -127,6 +129,7 @@ h1, h2, h3, h4, p, a {
 .header-contacts{
     display: flex;
     align-items: center;
+    color: var(--main-text-color);
 }
 
 .header-nav_block{
@@ -143,7 +146,8 @@ h1, h2, h3, h4, p, a {
     font-size: 18px;
     text-transform: uppercase;
     color: var(--main-text-color);
-    font-family: 'Proxima Nova Bold';
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
 }
 
 .header-nav_active::after{
