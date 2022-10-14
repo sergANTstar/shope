@@ -125,14 +125,20 @@ h1, h2, h3, h4, p, a {
     display: flex;
 }
 
-header-contacts__block{
+.header-contacts__block{
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
 }
 
 .header-contacts{
     display: flex;
     align-items: center;
+
+    font-size: 18px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+
     color: var(--main-text-color);
     fill: var(--main-text-color);
 
