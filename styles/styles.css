@@ -23,8 +23,8 @@ body{
     background-color: var(--backround-color);
     color: var(--main-text-color);
     font-family: 'Proxima Nova', sans-serif;
-    font-weight: 400;
-    font-size:14px ;
+    font-weight: 700;
+    font-size:18px ;
     line-height: 1.25;
     letter-spacing: 0.03em;
 
@@ -42,27 +42,6 @@ h1, h2, h3, h4, p, a {
     margin-left: auto;
     margin-right: auto;
 }
-
-@font-face {
-    font-family: 'Proxima Nova Regular';
-    src: url('ProximaNova-Regular.eot');
-    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-    url('ProximaNova-Regular.woff') format('woff'),
-    url('ProximaNova-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-
-@font-face {
-    font-family: 'Proxima Nova Bold';
-    src: url('ProximaNova-Bold.eot');
-    src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-    url('ProximaNova-Bold.woff') format('woff'),
-    url('ProximaNova-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-
 
 .header{
     height: 60px;
@@ -217,3 +196,98 @@ h1, h2, h3, h4, p, a {
 .header-contacts__icon:hover{
     fill: var(--accent-color);
 }
+
+
+
+
+
+
+
+.main-section{
+    height: 105px;
+    display: flex;
+    align-items: center;
+}
+
+.main-section__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goods-list__block{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.goods-list__item{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.goods-list_link{
+    display: flex;
+    align-items: center;
+
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+
+.main-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-logo__heading{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--main-text-color);
+}
+
+.main-logo__heading--f{
+    color: var(--accent-color);
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 200px;
+    
+}
+
+.order__title{
+    text-transform: uppercase;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.order__button{
+
+    width: 278px;
+    height: 51px;
+   
+    background-color: var(--accent-color);
+    text-transform: uppercase;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+
+}
+
+
+
+
+
