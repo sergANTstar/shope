@@ -95,6 +95,10 @@ h1, h2, h3, h4, p, a {
     color: var(--main-text-color);
    fill: var(--main-text-color);
 
+   font-family: 'Proxima Nova', sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+
     transition-property: color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -109,12 +113,6 @@ h1, h2, h3, h4, p, a {
     color: var(--main-text-color);
 }
 
-.header-contacts-tell{
-    font-family: 'Proxima Nova', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--main-text-color);
-}
 
 .header-heading{
     font-family: 'Proxima Nova', sans-serif;
@@ -182,4 +180,23 @@ h1, h2, h3, h4, p, a {
    color: var(--accent-color);
    height: 3px;
    width: 100%;
+}
+
+.header-contacts__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    fill: var(--main-text-color);
+
+
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+}
+
+.header-contacts__icon:focus,
+.header-contacts__icon:hover{
+    fill: var(--accent-color);
 }
