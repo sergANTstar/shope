@@ -172,6 +172,7 @@ h1, h2, h3, h4, p, a {
     color: var(--main-text-color);
     font-family: 'Proxima Nova', sans-serif;
     font-weight: 700;
+    position: relative;
 
     transition-property: color, fill;
     transition-duration: 250ms;
@@ -187,11 +188,15 @@ h1, h2, h3, h4, p, a {
 }
 
 .header-nav_active::after{
+    
+    content: '';
 
-   content: "";
-   color: var(--accent-color);
+    display: block;
+
+  background-color: var(--accent-color);
    height: 3px;
    width: 100%;
+   position: absolute;
 }
 
 .header-contacts__icon{
