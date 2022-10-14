@@ -134,6 +134,7 @@ h1, h2, h3, h4, p, a {
 .header-contacts{
     display: flex;
     align-items: center;
+    gap: 5px;
 
     font-size: 18px;
     font-family: 'Proxima Nova', sans-serif;
