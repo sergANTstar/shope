@@ -123,6 +123,10 @@ h1, h2, h3, h4, p, a {
     font-family: 'Proxima Nova Bold';
 }
 
-.header-nav_active{
-    outline: 3px solid var(--accent-color);
+.header-nav_active::after{
+
+   content: "";
+   color: var(--accent-color);
+   height: 3px;
+   width: 100%;
 }
