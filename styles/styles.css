@@ -1,6 +1,6 @@
 
 :root {
-    --main-text-color: #212121;
+    --main-text-color: #1E2E36;
     --accent-color: #2196F3;
     --backround-color: #FFFFFF;
     --second-text-color: #757575;
@@ -25,7 +25,7 @@ body{
     font-family: 'Proxima Nova Regular';
     font-weight: 400;
     font-size:14px ;
-    line-height: 1.17;
+    line-height: 1.25;
     letter-spacing: 0.03em;
 
 }
@@ -34,6 +34,7 @@ h1, h2, h3, h4, p, a {
     margin: 0;
     padding: 0;
 }
+
 .container{
     width: 1818px;
     padding-right: 51px;
@@ -52,12 +53,72 @@ h1, h2, h3, h4, p, a {
     font-style: normal;
     }
 
-    @font-face {
-        font-family: 'Proxima Nova Bold';
-        src: url('ProximaNova-Bold.eot');
-        src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-        url('ProximaNova-Bold.woff') format('woff'),
-        url('ProximaNova-Bold.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-        }
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('ProximaNova-Bold.eot');
+    src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Bold.woff') format('woff'),
+    url('ProximaNova-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+.header{
+    height: 60px;
+    display: flex;
+    outline: 1px solid var(--main-text-color);
+    align-items: center;
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-block_contacts{
+    height: 40px;
+    display: flex;
+    
+}
+
+.header-social-networks{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 50px;
+}
+
+
+.header-heading{
+    font-family: 'Proxima Nova Bold';
+    font-size: 18px;
+    line-height: 1.25;
+    color: var(--main-text-color);
+    margin-right: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.header-contacts{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav_block{
+    display: flex;
+    align-items: center;
+} 
+.header-nav{
+    display: flex;
+    align-items: center;
+   gap: 15px;
+}
+
+.header-nav_link{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    font-family: 'Proxima Nova Bold';
+}
