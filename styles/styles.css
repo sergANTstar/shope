@@ -1,7 +1,7 @@
 
 :root {
     --main-text-color: #1E2E36;
-    --accent-color: #2196F3;
+    --accent-color: #44C697;
     --backround-color: #FFFFFF;
     --second-text-color: #757575;
 }
@@ -121,4 +121,8 @@ h1, h2, h3, h4, p, a {
     text-transform: uppercase;
     color: var(--main-text-color);
     font-family: 'Proxima Nova Bold';
+}
+
+.header-nav_active{
+    outline: 3px solid var(--accent-color);
 }
