@@ -92,7 +92,7 @@ h1, h2, h3, h4, p, a {
 }
 
 .icon-social-networks{
-    fill: var(--main-text-color);
+   color: var(--main-text-color);
 
     transition-property: color, fill;
     transition-duration: 250ms;
@@ -105,7 +105,7 @@ h1, h2, h3, h4, p, a {
 .icon-social-networks:focus
 {
     
-    fill: var(--main-text-color);
+    color: var(--main-text-color);
 }
 
 .header-contacts-tell{
