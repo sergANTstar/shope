@@ -441,8 +441,7 @@ h1, h2, h3, h4, p, a {
     position: relative;
     display: block;
     overflow: hidden;
-    width: 586px;
-    height: 350px;
+
 }
 
 .advantage-item__title{
@@ -452,10 +451,8 @@ h1, h2, h3, h4, p, a {
     position: absolute;
     bottom: -80px;
     color: var(--backround-color);
+    transform: translateY(0px);
     margin-left: 30px;
-
-  
-    
 
     transition-property: all;
     transition-duration: 250ms;
@@ -465,7 +462,7 @@ h1, h2, h3, h4, p, a {
 
 .advantage-item__title:focus,
 .advantage-item__title:hover{
-    bottom: 0;
+    transform: translateY(50px);
     gap: 15px;
 }
 
@@ -540,7 +537,6 @@ h1, h2, h3, h4, p, a {
 
 
 
-
 .product-categories__heading{
     text-align: center;
    font-size: 48px;
@@ -574,8 +570,6 @@ h1, h2, h3, h4, p, a {
     text-transform: uppercase;
     margin-top: 10px;
 }
-
-
 
 
 
