@@ -3,7 +3,7 @@
     --main-text-color: #1E2E36;
     --accent-color: #44C697;
     --backround-color: #FFFFFF;
-    --second-text-color: #757575;
+    --second-text-color: #FF1B1B;
 }
 
 *,
@@ -593,6 +593,105 @@ h1, h2, h3, h4, p, a {
     padding-top: 100px;
 }
 
+.product-categories__cards{
+    display: flex;
+    gap: 50px 30px;
+    margin-top: 87px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-categories__img{
+    max-width: 552px;
+}
+
+.product-categories__card{
+    background-color: var(--backround-color);
+    cursor: pointer;
+    position: relative;
+
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms
+
+}
+
+.product-categories__card:hover:hover,
+.product-categories__card:hover:focus{
+    background-color: var(--accent-color);
+}
+
+.product-categories__title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.product-categories__text--new{
+    position: absolute;
+    top: 10px;
+    padding: 5px 15px 5px 15px;
+    color: var(--backround-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: var(--main-text-color);
+}
+
+.product-categories__text--action{
+    position: absolute;
+    top: 48px;
+    padding: 5px 15px 5px 15px;
+    color: var(--backround-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: var(--second-text-color) ;
+}
+
+.product-categories__title--red{
+    color: var(--second-text-color);
+}
+
+.product-categories__title--second{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    color: #BCBDBB;
+    margin-left: 10px;
+}
+
+
+.product-categories__button{
+    text-transform: uppercase;
+    color: var(--backround-color);
+
+    font-size: 18px;
+    border: none;
+    background-color: var(--accent-color);
+    border-radius: 3px;
+    width: 190px;
+    height: 51px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms
+
+}
+
+.product-categories__button:hover,
+.product-categories__button:focus{
+    color: var(--accent-color);
+    border: 3px solid var(--accent-color);
+    background-color: var(--backround-color);
+}
 
 
 
