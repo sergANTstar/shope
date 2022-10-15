@@ -383,11 +383,27 @@ h1, h2, h3, h4, p, a {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    
 }
 
 .face-description__switch--arrow{
     fill: var(--main-text-color);
+    border: 1px solid var(--main-text-color);
+    border-radius: 50%;
+
     
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+}
+
+.face-description__switch--arrow:hover,
+.face-description__switch--arrow:focus{
+    fill: var(--backround-color);
+    background-color: var(--main-text-color);
+    border-radius: 50%;
+
 }
 
 
