@@ -292,6 +292,104 @@ h1, h2, h3, h4, p, a {
 
 }
 
+.hero{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.hero-img{
+    width: 1920px;
+}
+
+
+.face-description{
+    position: absolute;
+    width: 462px;
+    height: 670px;
+    background-color: #FFFFFF;
+    top: 0;
+    border-left: 15px solid var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text-color);
+}
+
+.face-description__h2{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.face-description__h3{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom:10px ;
+}
+
+.face-description__text{
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.face-description__button{
+    color: var(--backround-color);
+    background-color: var(--accent-color);
+    width: 209px;
+    height: 51px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    outline: 3px solid var(--accent-color);
+
+
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+}
+
+.face-description__button:focus,
+.face-description__button:hover{
+    color: var(--accent-color);
+    background-color: var(--backround-color);
+ 
+}
+
+.face-description__switch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.face-description__number{
+    font-size: 24px;
+}
+
+.face-description__number--main{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 5px;
+}
+
+
+.face-description__switch--block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.face-description__switch--arrow{
+    fill: var(--main-text-color);
+    
+}
+
 
 
 
