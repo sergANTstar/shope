@@ -390,6 +390,7 @@ h1, h2, h3, h4, p, a {
     fill: var(--main-text-color);
     border: 1px solid var(--main-text-color);
     border-radius: 50%;
+    cursor: pointer;
 
     
     transition-property: all;
@@ -444,24 +445,23 @@ h1, h2, h3, h4, p, a {
 
 }
 
-
-
 .advantage-item{
     position: relative;
-    display: block;
+    cursor: pointer;
     overflow: hidden;
-
 }
 
 .advantage-item__title{
     display: flex;
     flex-direction: column;
+    z-index: 1;
     gap: 40px;
+    width: auto;
     position: absolute;
-    bottom: 0px;
+    bottom: -80px;
     color: var(--backround-color);
-    transform: translateY(0px);
     margin-left: 30px;
+    cursor: pointer;
 
     transition-property: all;
     transition-duration: 250ms;
@@ -472,11 +472,9 @@ h1, h2, h3, h4, p, a {
 
 .advantage-item__title:hover,
 .advantage-item__title:focus{
-    color: var(--accent-color);
+    bottom: 0px;
     gap: 15px;
 }
-
-
 
 .advantage-item__heading{
     font-weight: 700;
@@ -491,19 +489,9 @@ h1, h2, h3, h4, p, a {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
-
-    transition-property: all;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
-    
 }
 
 
-.advantage-item__text:hover,
-.advantage-item__text:focus{
-    color: var(--accent-color);
-}
 
 .product-categories{
     padding-top: 100px;
@@ -534,6 +522,7 @@ h1, h2, h3, h4, p, a {
     border: 1px solid var(--backround-color);
     border-radius: 50%;
     margin-left: 15px;
+    cursor: pointer;
 
 
     
@@ -574,6 +563,7 @@ h1, h2, h3, h4, p, a {
 .product-categories__item{
     fill: var(--main-text-color);
     border-bottom: 3px solid var(--backround-color);
+    cursor: pointer;
 
     transition-property: all;
     transition-duration: 250ms;
