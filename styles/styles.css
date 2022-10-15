@@ -423,7 +423,13 @@ h1, h2, h3, h4, p, a {
     font-weight: 700;
     font-size: 60x;
     font-size: 48px;
+
 }
+
+
+
+
+
 
 .advantage-list{
     display: flex;
@@ -435,8 +441,11 @@ h1, h2, h3, h4, p, a {
 .advantage-img{
     width: 586px;
     height: 350px;
-  
+
 }
+
+
+
 .advantage-item{
     position: relative;
     display: block;
@@ -449,7 +458,7 @@ h1, h2, h3, h4, p, a {
     flex-direction: column;
     gap: 40px;
     position: absolute;
-    bottom: -80px;
+    bottom: 0px;
     color: var(--backround-color);
     transform: translateY(0px);
     margin-left: 30px;
@@ -460,11 +469,14 @@ h1, h2, h3, h4, p, a {
     transition-delay: 250ms;
 }
 
-.advantage-item__title:focus,
-.advantage-item__title:hover{
-    transform: translateY(50px);
+
+.advantage-item__title:hover,
+.advantage-item__title:focus{
+    color: var(--accent-color);
     gap: 15px;
 }
+
+
 
 .advantage-item__heading{
     font-weight: 700;
@@ -479,7 +491,18 @@ h1, h2, h3, h4, p, a {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
+
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
     
+}
+
+
+.advantage-item__text:hover,
+.advantage-item__text:focus{
+    color: var(--accent-color);
 }
 
 .product-categories{
