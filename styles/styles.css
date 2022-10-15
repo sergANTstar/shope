@@ -524,7 +524,7 @@ h1, h2, h3, h4, p, a {
 
 .advantage__switch--arrow:last-child
 {
-    transform: translateX(30px);
+    transform: rotate(180deg);
     margin-left: 0;
     margin-right: 15px;
 }
