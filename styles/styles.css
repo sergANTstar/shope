@@ -891,9 +891,10 @@ transform: translateX(-5px);
 .footer-block{
     display: flex;
     justify-content: center;
-    
-
+    position: relative;
 }
+
+
 
 
 .footer__img{
@@ -999,6 +1000,30 @@ transform: translateX(-5px);
     font-size: 14px;
    font-weight: 400;
 
+}
+
+.footer-icon__up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--accent-color);
+    outline: 1px solid var(--accent-color);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms
+}
+
+.footer-icon__up:hover,
+.footer-icon__up:focus{
+    outline: 5px solid var(--backround-color);
 }
 
 
