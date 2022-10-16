@@ -926,13 +926,25 @@ transform: translateX(-5px);
 
 .footer-nav{
     display: flex;
-    gap: 30px;
+    gap: 33px;
     margin-top: 50px;
 
-    font-size: 18px;
+    font-size: 16px;
     color: var(--backround-color);
     text-transform: uppercase;
 }
+
+.footer-nav__goods{
+    display: flex;
+    gap: 40px;
+
+    font-size: 14px;
+    color: var(--backround-color);
+    text-transform: uppercase;
+}
+
+
+
 
 .footer-nav__block{
     display: flex;
@@ -947,7 +959,7 @@ transform: translateX(-5px);
 
 .footer-inf__text{
     color: var(--backround-color);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     text-transform: none;
 }
@@ -991,7 +1003,7 @@ transform: translateX(-5px);
 
 .footer-furniture{
     font-size: 14px;
-    margin-top: 100px;
+    margin-top: 130px;
    text-transform: none;
    font-weight: 400;
 }
@@ -1000,6 +1012,8 @@ transform: translateX(-5px);
     font-size: 14px;
    font-weight: 400;
    font-family: 'Cuprum', sans-serif;
+   font-stretch: 33%;
+   margin-top:110px;
 
 }
 
@@ -1030,6 +1044,7 @@ transform: translateX(-5px);
 .footer-gl__block{
     display: flex;
     align-items: center;
+    
 }
 
 
