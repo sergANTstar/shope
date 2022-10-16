@@ -248,6 +248,12 @@ h1, h2, h3, h4, p, a {
     text-transform: uppercase;
 }
 
+.goods-list__item:hover,
+.goods-list__item:focus{
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
 
 .main-logo{
     display: flex;
@@ -291,9 +297,23 @@ h1, h2, h3, h4, p, a {
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
-    border: none;
+    border:3px solid var(--accent-color);
     border-radius: 3px;
+   
 
+
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+
+}
+
+.order__button:focus,
+.order__button:hover{
+    background-color: var(--backround-color);
+    color: var(--accent-color);
+    
 }
 
 .hero{
