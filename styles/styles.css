@@ -1026,6 +1026,10 @@ transform: translateX(-5px);
     outline: 3px solid var(--backround-color);
 }
 
+.footer-gl__block{
+    display: flex;
+    align-items: center;
+}
 
 
 
