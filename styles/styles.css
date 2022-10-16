@@ -926,7 +926,7 @@ transform: translateX(-5px);
 
 .footer-nav{
     display: flex;
-    gap: 33px;
+    gap: 25px;
     margin-top: 50px;
 
     font-size: 16px;
@@ -1013,7 +1013,7 @@ transform: translateX(-5px);
    font-weight: 400;
    font-family: 'Cuprum', sans-serif;
    font-stretch: 33%;
-   margin-top:110px;
+  
 
 }
 
@@ -1044,6 +1044,7 @@ transform: translateX(-5px);
 .footer-gl__block{
     display: flex;
     align-items: center;
+    margin-top:110px;
     
 }
 
