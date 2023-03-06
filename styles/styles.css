@@ -324,9 +324,10 @@ h1, h2, h3, h4, p, a {
     background-image: 
   url("../img/Rectangle137.jpg");
 }
-.hero-img{
+
+/*.hero-img{
     width: 1920px;
-}
+}*/
 
 
 .face-description{
