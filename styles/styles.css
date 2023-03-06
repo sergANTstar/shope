@@ -320,6 +320,9 @@ h1, h2, h3, h4, p, a {
     display: flex;
     justify-content: center;
     position: relative;
+    height: 785px;
+    background-image: 
+  url("../img/Rectangle137.jpg");
 }
 .hero-img{
     width: 1920px;
@@ -327,7 +330,6 @@ h1, h2, h3, h4, p, a {
 
 
 .face-description{
-    position: absolute;
     width: 462px;
     height: 670px;
     background-color: #FFFFFF;
